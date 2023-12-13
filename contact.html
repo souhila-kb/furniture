@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html"><img src="image/logo11-removebg-preview.png" alt="erreur" height="100px" width="100px"></a>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <datalist id="prod">
+            <option value="Sofa">
+            <option value="Chair">
+            <option value="Table">
+            <option value="Wordrope">
+            <option value="Bed">
+            </datalist>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+</header>
+
+<!-- header section ends  -->
+
+<!-- closer btn  -->
+
+<div id="closer" class="fas fa-times"></div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+</nav>
+
+<!-- shopping cart  -->
+
+<div class="shopping-cart">
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-1.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-2.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-3.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-4.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <h3 class="total"> total : <span>$560.00</span> </h3>
+
+    <a href="#" class="btn">checkout cart</a>
+
+</div>
+
+
+<!-- login form  -->
+<div class="login-form">
+
+    <form method="post" action="form.php">
+        <h3>login form</h3>
+        <input  required type="email" name="mail" placeholder="enter your email" class="box">
+        <input required  type="password" name="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#" >click here</a></p>
+        <p>don't have an account? <a href="#" id="signin">create now</a></p>
+    </form>
+
+</div>
+
+<!-- signin form  -->
+
+<div class="signin-form">
+
+    <form method="post" action="signin.php">
+        <h3>Signin form</h3>
+        <input required  type="text" placeholder="enter your name" name="name" class="box">
+        <input required  type="email" placeholder="enter your email" name="mail" class="box">
+        <input required  type="date" name="bday" class="box">
+        <input required  type="password" placeholder="enter your password" name="password" class="box">
+        <div class="remember">
+            <input  type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="signin now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>already have an account? <a href="#"  id="loging">login now</a></p>
+    </form>
+
+</div>
+<!-- heading -->
+<section class="heading">
+    <h3>contact us</h3>
+    <p> <a href="home.html">home</a> / <span>contact</span> </p>
+</section>
+
+<div class="contact">
+
+    <form action="">
+        <h3>get in touch</h3>
+        <span>your name</span>
+        <input type="text" class="box">
+        <span>your number</span>
+        <input type="number" class="box">
+        <span>your email</span>
+        <input type="email" class="box">
+        <span>your message</span>
+        <textarea class="box" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89528.52603073878!2d-0.6520073528202964!3d35.70215413992663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e8854841f537d%3A0x4187f63762f7290f!2sOran!5e0!3m2!1sen!2sdz!4v1650821319725!5m2!1sen!2sdz" allowfullscreen="" loading="lazy"></iframe>
+
+</div>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="https://www.facebook.com/d.fatima.z.12/"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="https://twitter.com/ZahraDrif"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://www.instagram.com/novella_elegy/"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/in/fatima-zohra-drif-73bb5b23a/"> <i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit">
+    I hope you had a fun shooping . See you again ;)
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>

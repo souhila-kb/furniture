@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html"><img src="image/logo11-removebg-preview.png" alt="erreur" height="100px" width="100px"></a>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <datalist id="prod">
+            <option value="Sofa">
+            <option value="Chair">
+            <option value="Table">
+            <option value="Wordrope">
+            <option value="Bed">
+            </datalist>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+</header>
+
+<!-- header section ends  -->
+
+<!-- closer btn  -->
+
+<div id="closer" class="fas fa-times"></div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+</nav>
+
+<!-- shopping cart  -->
+
+<div class="shopping-cart">
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-1.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-2.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-3.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-4.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <h3 class="total"> total : <span>$560.00</span> </h3>
+
+    <a href="#" class="btn">checkout cart</a>
+
+</div>
+
+
+<!-- login form  -->
+<div class="login-form">
+
+    <form method="post" action="form.php">
+        <h3>login form</h3>
+        <input  required type="email" name="mail" placeholder="enter your email" class="box">
+        <input required  type="password" name="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#" >click here</a></p>
+        <p>don't have an account? <a href="#" id="signin">create now</a></p>
+    </form>
+
+</div>
+<!-- signin form  -->
+<div class="signin-form">
+
+    <form method="post" action="signin.php">
+        <h3>Signin form</h3>
+        <input required  type="text" placeholder="enter your name" name="name" class="box">
+        <input required  type="email" placeholder="enter your email" name="mail" class="box">
+        <input required  type="date" name="bday" class="box">
+        <input required  type="password" placeholder="enter your password" name="password" class="box">
+        <div class="remember">
+            <input  type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="signin now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>already have an account? <a href="#"  id="loging">login now</a></p>
+    </form>
+
+</div>
+<!-- heading -->
+<section class="heading">
+    <h3>about us</h3>
+    <p> <a href="home.html">home</a> / <span>about</span> </p>
+</section>
+
+<section class="about">
+
+    <div class="image">
+        <img src="image/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>welcome to our shop</span>
+        <h3>we make your home more astonishing</h3>
+        <p>Stands for “my soul” and believes that your interior is a reflection of yourself. Therefore we handpicked the finest items from all over the world. Our mission is to inspire you to surround you with beauty and create a space that reflects your own style.</p>
+        <p>Shopping should be fun! When you visit our FurniRoom wb-store, you never have to worry about being hassled. As you browse, our non-commissioned sales team is available to give you as much or as little guidance as you prefer, and will never pressure you into making a purchase or spending more than you want to. At IFR, you're in complete control!</p>
+    </div>
+
+</section>
+
+<section class="services">
+
+    <h1 class="title"> <span>our services</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/serv-1.svg" alt="">
+            <h3>product selling</h3>
+            <p>We offer the very best in home and office furniture. We have access to any style of furniture you may be looking for from contemporary, transitional and traditional to rustic. If you don't see something in our showroom that's exactly what you need, we can always order from thousands of products within our furniture catalogs. And best of all, you'll find our everyday low prices are WELL BELOW RETAIL! If you find something for less elsewhere, we'll match their price!</p>
+            
+        </div>
+
+        <div class="box">
+            <img src="image/serv-2.svg" alt="">
+            <h3>product designing</h3>
+            <p>Our consultants have all the tools, training and experience to help you create your beautiful living space complete with rugs, wall art, accessories and lighting. We'll guide you through the buying process either in our showroom, or the comfort of your home! Choosing the right colors and selections for your home or office no longer needs to be a guessing game. With our help, you can feel confident making buying decisions that will bring satisfaction for years to come.</p>
+            
+        </div>
+
+        <div class="box">
+            <img src="image/serv-3.svg" alt="">
+            <h3>24 / 7 support</h3>
+            <p>We are here to provide you with exceptional customer service whenever you need us...before, during and after the sale. We're dedicated to giving you the best service and products possible each and every time. Your satisfaction is always our goal.</p>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="https://www.facebook.com/d.fatima.z.12/"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="https://twitter.com/ZahraDrif"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://www.instagram.com/novella_elegy/"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/in/fatima-zohra-drif-73bb5b23a/"> <i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit">
+    I hope you had a fun shooping . See you again ;)
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>

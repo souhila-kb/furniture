@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html"><img src="image/logo11-removebg-preview.png" alt="erreur" height="100px" width="100px"></a>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <datalist id="prod">
+            <option value="Sofa">
+            <option value="Chair">
+            <option value="Table">
+            <option value="Wordrope">
+            <option value="Bed">
+            </datalist>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+</header>
+
+<!-- header section ends  -->
+
+<!-- closer btn  -->
+
+<div id="closer" class="fas fa-times"></div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+</nav>
+
+<!-- shopping cart  -->
+
+<div class="shopping-cart">
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-1.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-2.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-3.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-4.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <h3 class="total"> total : <span>$560.00</span> </h3>
+
+    <a href="#" class="btn">checkout cart</a>
+
+</div>
+
+
+<!-- login form  -->
+<div class="login-form">
+
+    <form method="post" action="form.php">
+        <h3>login form</h3>
+        <input  required type="email" name="mail" placeholder="enter your email" class="box">
+        <input required  type="password" name="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#" >click here</a></p>
+        <p>don't have an account? <a href="#" id="signin">create now</a></p>
+    </form>
+
+</div>
+
+<!-- signin form  -->
+
+<div class="signin-form">
+
+    <form method="post" action="signin.php">
+        <h3>Signin form</h3>
+        <input required  type="text" placeholder="enter your name" name="name" class="box">
+        <input required  type="email" placeholder="enter your email" name="mail" class="box">
+        <input required  type="date" name="bday" class="box">
+        <input required  type="password" placeholder="enter your password" name="password" class="box">
+        <div class="remember">
+            <input  type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="signin now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>already have an account? <a href="#"  id="loging">login now</a></p>
+    </form>
+
+</div>
+<!--section start-->
+<section class="heading">
+    <h3>our shop</h3>
+    <p> <a href="home.html">home</a> / <span>shop</span> </p>
+</section>
+
+<section class="category">
+
+    <h1 class="title"> <span>our categories</span></h1>
+
+    <div class="box-container">
+
+        <a href="#" class="box-i" id="h-s">
+            <img src="image/icon-1.png" alt="">
+            <h3>house sofa</h3>
+        </a>
+
+        <a href="#" class="box-i" id="w-t">
+            <img src="image/icon-2.png" alt="">
+            <h3>working table</h3>
+        </a>
+
+        <a href="#" class="box-i" id="c-t">
+            <img src="image/icon-3.png" alt="">
+            <h3>corner table</h3>
+        </a>
+
+        <a href="#" class="box-i" id="o-c">
+            <img src="image/icon-4.png" alt="">
+            <h3>office chair</h3>
+        </a>
+
+        <a href="#" class="box-i" id="n-w">
+            <img src="image/icon-5.png" alt="">
+            <h3>new wardrobe</h3>
+        </a>
+
+        <a href="#" class="box-i" id="n-b">
+            <img src="image/icon-6.png" alt="">
+            <h3>new bed</h3>
+        </a>
+
+        <a href="#" class="box-i" id="l">
+            <img src="image/icon-7.png" alt="">
+            <h3>new Lamp</h3>
+        </a>
+
+    </div>
+
+</section>
+<div class="list-p" id="C-T">
+    <div class="p-name"><h3>Corner Table</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-1.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-2.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-3.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-4.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-5.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-6.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-7.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-8.png" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-9.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-10.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-12.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/C-T/c-t-15.jpg"alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    
+</div>
+<div class="list-p" id="H-S">
+    <div class="p-name"><h3>House sofa</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-1.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-2.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-3.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-4.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-5.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-6.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-7.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-8.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-9.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-10.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-12.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/H-S/h-s-15.jpg"alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    
+</div>
+<div class="list-p" id="W-T">
+    <div class="p-name"><h3>Working Table</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-1.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-2.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-3.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-4.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-5.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-6.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-7.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-8.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-9.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-10.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-12.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/W-T/w-t-15.jpg"alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    
+</div>
+<div class="list-p" id="O-C">
+    <div class="p-name"><h3>Office Chair</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-1.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-2.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-3.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-4.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-5.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-6.png" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-7.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-8.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-9.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-10.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-12.jpeg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/O-C/o-c-15.jpg"alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    
+</div>
+<div class="list-p" id="N-W">
+    <div class="p-name"><h3>wardrobe</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-1.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-2.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-3.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-4.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-5.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-6.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-7.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-8.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-9.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-10.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-12.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/N-W/n-w-15.jpg"alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    
+</div>
+<div class="list-p" id="L">
+    <div class="p-name"><h3>Lamp</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-1.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-2.jpeg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-3.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-4.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-5.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-6.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-7.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-8.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-9.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-10.png" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-12.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/L/l-15.jpg"alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    
+</div>
+<div class="list-p" id="B">
+    <div class="p-name"><h3>Bed</h3></div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-1.png" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-2.jpg" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-3.png" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-4.png" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-5.jpg" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-6.jpg" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-7.jpg" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-8.jpg" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-9.jpg" alt=""> 
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-10.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-11.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-12.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-13.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-14.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+    <div class="boxProd">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+        </div>
+        <div class="image">
+            <img src="image/B/b-15.jpg" alt="">
+        </div>
+        <div class="price">$140.00</div>
+    </div>
+</div>
+<section class="products">
+
+    <h1 class="title"> <span>our products</span> <a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                
+            </div>
+            <div class="image">
+                <img src="image/product-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>modern furniture</h3>
+                <div class="rating">
+  
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                  
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!--section end-->
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="https://www.facebook.com/d.fatima.z.12/"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="https://twitter.com/ZahraDrif"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://www.instagram.com/novella_elegy/"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/in/fatima-zohra-drif-73bb5b23a/"> <i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit">
+    I hope you had a fun shooping . See you again ;)
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html"><img src="image/logo11-removebg-preview.png" alt="erreur" height="100px" width="100px"></a>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <datalist id="prod">
+            <option value="Sofa">
+            <option value="Chair">
+            <option value="Table">
+            <option value="Wordrope">
+            <option value="Bed">
+            </datalist>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+</header>
+
+<!-- header section ends  -->
+
+<!-- closer btn  -->
+
+<div id="closer" class="fas fa-times"></div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+</nav>
+
+<!-- shopping cart  -->
+
+<div class="shopping-cart">
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-1.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-2.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-3.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-4.jpg" alt="">
+        <div class="content">
+            <h3>morden furniture</h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <h3 class="total"> total : <span>$560.00</span> </h3>
+
+    <a href="#" class="btn">checkout cart</a>
+
+</div>
+
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form method="post" action="form.php">
+        <h3>login form</h3>
+        <input  required type="email" placeholder="enter your email" class="box">
+        <input required  type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#" >click here</a></p>
+        <p>don't have an account? <a href="#" id="signin">create now</a></p>
+    </form>
+
+</div>
+
+<!-- signin form  -->
+<div class="login-form">
+
+    <form method="post" action="signin.php">
+        <h3>login form</h3>
+        <input  required type="email" name="mail" placeholder="enter your email" class="box">
+        <input required  type="password" name="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input required  type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#" >click here</a></p>
+        <p>don't have an account? <a href="#" id="signin">create now</a></p>
+    </form>
+
+</div>
+<!-- heading -->
+<section class="heading">
+    <h3>our blogs</h3>
+    <p> <a href="home.html">home</a> / <span>blog</span> </p>
+</section>
+
+<section class="blog">
+
+    <h1 class="title"> <span>our blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>How to Use Bright Colors In Your Home Design and Furniture</h3>
+                <p>Bright colors can be a little intimidating to work with. Choosing the perfect colors, neutrals to contrast it, and finding the perfect accessories and modern furniture can be daunting. This is why many of us settle on neutral shades to decorate our homes - beige, brown, black, white, grey, maybe adventuring to a little burnt orange or navy blue. </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Mixing Modern Furniture with Vintage Looks</h3>
+                <p>It’s very easy to get overwhelmed when it comes to mixing different looks in your home. When done well, mixing modern furniture with vintage looks can look very stylish and allows you to introduce interest into your home that may mostly feature modern furniture. </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Grandmillenial Style & Modern Furniture </h3>
+                <p>Grandmilenial style could be one of the reasons that velvet is making such a comeback. This new popular trend is a bold one, mixing woods and modern furniture, minimalistic styles with the retro, nostalgic styles you’d see in your grandma’s house. Envision your grandma's tufted velvet bench or armchair mixed with white sleek cabinets and minimalist style. </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Bouclé Fabric Makes a Comeback</h3>
+                <p>The word bouclé is a French word, translated to English bouclé it means “curls’ - this is a reference to how bouclé yarn and fabric is made, which is from many different loops or “curls”. It’s this process that gives the fabric it’s intriguing appearance. Though it is a very heavy textile known for being incredibly soft and provides an interesting texture making for an interesting visual. </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Et Al Chair Collection</h3>
+                <p> With the exciting news that many restaurants are allowed to open their patios, it’s important to find the right chairs. We are happy to introduce you to our Et Al’s collection which has three types of bases – metal, plastic and wooden.
+
+                    There are a couple of factors to keep in mind when purchasing chairs for outdoors. Some factors include durability, style, and maintenance. </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Harmony Sofa </h3>
+                <p>This sofa looks much different than your typical sofa. It has a unique and modern look that is difficult to find. The seating is made of foam, ensuring that your seat is comfortable. It comes in a variety of colours, ensuring that you can pick one to suit your theme. We recommend picking a bright colour if the walls of your living room are a light colour to make it stand out even more. </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="https://www.facebook.com/d.fatima.z.12/"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="https://twitter.com/ZahraDrif"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://www.instagram.com/novella_elegy/"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/in/fatima-zohra-drif-73bb5b23a/"> <i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit">
+    I hope you had a fun shooping . See you again ;)
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
